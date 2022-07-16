@@ -40,10 +40,15 @@ section.filter {
   border: 1px solid #0084ff;
   margin: 5px;
   cursor: pointer;
+  transition: 0.15s ease-in;
 }
+/* .categorycontainer ul li a:hover {
+  color: #fff;
+  background: linear-gradient(269deg, #0048ff, #0096ff);
+} */
 .categorycontainer ul li a.active {
   color: #fff;
-  background-color: #0084ff;
+  background: linear-gradient(269deg, #0048ff, #0096ff);
 }
 /* cards */
 section.card {
@@ -85,9 +90,13 @@ section.card {
   font-weight: 300;
   font-style: normal;
   color: #000;
+  font-family: "Roboto", sans-serif;
 }
 .item p.item_description {
   margin: 10px 0px;
+  color: #000;
+  opacity: 0.5;
+  letter-spacing: 0.35px;
 }
 .item h2.title {
   font-size: 1.25em;
