@@ -1,34 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import "./header.css";
+import Dropdown from "./Dropdown";
 
 const Header = () => {
+  const [visible, setVisible] = useState(false);
+
   return (
     <header>
       <nav>
         <ul>
           <li>
-            <h3 class="logo">Edyoda</h3>
-            <span class="stories">Stories</span>
+            <h3 className="logo">Edyoda</h3>
+            <span className="stories">Stories</span>
           </li>
           <li>
-            <div class="dropdown">
-              <button onclick="myFunction()" class="dropbtn">
-                Explore Categories <i class="fa fa-caret-down"></i>
+            <div className="dropdown">
+              <button onClick={() => setVisible(!visible)} className="dropbtn">
+                Explore Categories <i className="fa fa-caret-down"></i>
               </button>
-              <div id="myDropdown" class="dropdown-content">
-                <a href="#" class="active">
-                  All
-                </a>
-                <a href="#">Artificial Intelligence</a>
-                <a href="#">Cloud Computing</a>
-                <a href="#">DevOps</a>
-                <a href="#">Programming Languages</a>
-                <a href="#">Mobile Application Development</a>
-                <a href="#">Technology and Tools</a>
-                <a href="#">Get a Job in a Tech Company</a>
-                <a href="#">Others</a>
-              </div>
+              {visible ? <Dropdown /> : null}
             </div>
+          </li>
+        </ul>
+        <ul>
+          <li className="tagline">
+            EdYoda is free learning and knowledge
+            <br /> sharing platform for techies
+          </li>
+          <li>
+            <button className="navbtn">Go To Main Website</button>
           </li>
         </ul>
       </nav>

@@ -32,7 +32,7 @@ section.filter {
   display: inline-flex;
 }
 .categorycontainer ul li a {
-  font-size: 14px;
+  font-size: 0.75em;
   padding: 6px 14px;
   width: auto;
   color: #0084ff;
@@ -57,6 +57,7 @@ section.card {
   box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
   border-radius: 5px;
   margin: 0.5rem;
+  border: 1px solid rgba(0, 168, 255, 0.3);
   display: inline-block;
 }
 .item .imagesection {
@@ -74,8 +75,8 @@ section.card {
 }
 .item .textsection .authorcontainer p.author {
   color: #0096ff;
-  font-size: 14px;
-  font-style: Italic;
+  font-size: 0.9em;
+  /* font-style: Italic; */
   font-weight: 500;
 }
 
@@ -85,9 +86,11 @@ section.card {
   font-style: normal;
   color: #000;
 }
-
+.item p.item_description {
+  margin: 10px 0px;
+}
 .item h2.title {
-  font-size: 18px;
+  font-size: 1.25em;
   text-align: left;
   margin: 0px;
   font-weight: 600;
