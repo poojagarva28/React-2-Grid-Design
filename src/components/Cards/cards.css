@@ -42,10 +42,10 @@ section.filter {
   cursor: pointer;
   transition: 0.15s ease-in;
 }
-/* .categorycontainer ul li a:hover {
+.categorycontainer ul li a:hover {
   color: #fff;
   background: linear-gradient(269deg, #0048ff, #0096ff);
-} */
+}
 .categorycontainer ul li a.active {
   color: #fff;
   background: linear-gradient(269deg, #0048ff, #0096ff);
