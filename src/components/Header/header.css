@@ -1,0 +1,82 @@
+/* header */
+header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+header ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+header {
+  padding: 16px 78px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px #ccc;
+}
+header .stories {
+  margin: 0;
+  font-weight: 500;
+  font-family: Raleway;
+  font-style: Italic;
+}
+header h3.logo {
+  width: 130px;
+  font-size: 32px;
+  color: #0084ff;
+  margin: 0;
+  padding: 0;
+}
+
+/* dropdown */
+/* Dropdown Button */
+.dropbtn {
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+}
+
+.dropdown img {
+  margin-left: 8px;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding: 0.5em;
+  background-color: #fff;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.dropbtn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
