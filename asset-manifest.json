@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-2-Grid-Design/static/css/main.e28756ec.css",
+    "main.css": "/React-2-Grid-Design/static/css/main.9ae447d3.css",
     "main.js": "/React-2-Grid-Design/static/js/main.a7878909.js",
     "static/js/787.7f831edb.chunk.js": "/React-2-Grid-Design/static/js/787.7f831edb.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/React-2-Grid-Design/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -9,12 +9,12 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/React-2-Grid-Design/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/React-2-Grid-Design/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/React-2-Grid-Design/index.html",
-    "main.e28756ec.css.map": "/React-2-Grid-Design/static/css/main.e28756ec.css.map",
+    "main.9ae447d3.css.map": "/React-2-Grid-Design/static/css/main.9ae447d3.css.map",
     "main.a7878909.js.map": "/React-2-Grid-Design/static/js/main.a7878909.js.map",
     "787.7f831edb.chunk.js.map": "/React-2-Grid-Design/static/js/787.7f831edb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e28756ec.css",
+    "static/css/main.9ae447d3.css",
     "static/js/main.a7878909.js"
   ]
 }
